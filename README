@@ -1,0 +1,6 @@
+Arm GDB with KDP support 
+-execute GDB with a connected device (serial cable needed)
+-execute SerialKDPProxy to fake UDP port to get a remote connexion on iOS Kernel (during boot with some boot-args)
+-on GDB: target remote-kdp
+         attach localhost
+-have fun with debugging
